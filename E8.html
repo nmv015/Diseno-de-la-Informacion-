@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Minimaxing by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Diseño de la Información - Ejercicio 8</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<header id="header">
+									<h1><a href="index.html" id="logo">Diseño de la Información</a></h1>
+									<nav id="nav">
+										<a href="index.html">De vuelta al inicio</a>
+									</nav>
+								</header>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main">
+					<div class="container">
+						<div class="row main-row">
+							<div class="col-12">
+
+								<section>
+									<h2>Ejercicio 8</h2>
+									<h4>Descargando datos de internet.</h4>
+									<p>Para pasar los datos de una página de internet a un base de datos sin tener que hacerlo a mano, se puede utilizar la fórmula =importhtml en GoogleSheets. Para utilizar esta fórmula sólo hace falta especificar de qué página se quiere extraer la información, en qué formato está desplegada en la misma, su posición y en qué idioma está. Para evitar que la fórmula quede muy larga al insertar el URL completo de la página, este se puede pegar en una celda aparte y en la fórmula seleccionar la celda. La fórmula debería verse algo así:</p>
+									
+									<img src="images/formula.jpg"/>
+									
+									<p>En caso de que se quiera descargar una serie de datos desplegados de manera similar en páginas diferentes sin tener que repetir el proceso a mano, es posible sistematizarlo de la siguiente forma:</p>
+								 
+									<ul>
+										<li>1. Con el botón derecho, inspeccionar la página de dónde se quieren extraer los datos.</li>
+										<li>2. Identificar las secciones del código html que corresponden a los sitios de donde se quiere extraer la información.</li>
+										<li>3. Copiar las secciones identificadas a un editor de texto como TextMate.</li>
+											<li>4. Limpiar el código borrando las partes que se repiten utilizando la herramienta de buscar y remplazar.</li>
+											<li>5. Una vez limpiado, descargar el documento como csv y abrirlo en Excel.</li>
+											<li>6. Unir lo obtenido con la limpieza del código con el inicio del URL para conseguir los URLs individuales de todas las páginas de dónde se quieren extraer los datos.</li>		
+											<li>7. Copiar los URLs obtenidos a una páina de GoogleSheets y utilizar la fórmula =importhtml para descargar los datos deseados.</li>
+											<li>8. Cada que se edite un archivo de html en TextMate, volver a subir a GitHub y refrescar el link del repositorio.</li>
+											
+									</ul>
+								
+								</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
